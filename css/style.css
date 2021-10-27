@@ -1,3 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,600&display=swap");
+footer {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #707070;
+}
 
+.social-icons {
+  height: 70px;
+  width: 70px;
+  filter: invert(88%) sepia(1%) saturate(2046%) hue-rotate(319deg) brightness(89%) contrast(73%);
+}
+
+.header-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(64, 60, 13, 0.3);
+  background-blend-mode: multiply;
+  background-image: url("../../images/homepageHeader.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.text-body {
+  min-height: 80vh;
+}
+
+.review-body {
+  border-top: 1px solid #707070;
+}
+
+.homepage-image {
+  width: 472px;
+  height: 806px;
+  border-radius: 25px;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+body h1 {
+  font-size: 55px;
+}
+body p {
+  font-size: 28px;
+}
+body button {
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */

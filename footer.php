@@ -15,12 +15,6 @@
                     <img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/gmail.svg" alt="mail">
                 </div>
             </div>
-            <div class="row">
-                <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?>
-            </div>
-            <div class="row mt-4">
-                Made By The Noorderpoort
-            </div>
             <?php wp_footer(); ?>
         </footer>
     </div>

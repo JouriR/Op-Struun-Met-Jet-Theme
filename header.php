@@ -1,16 +1,18 @@
-<div style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/homepageHeader.webp');" class="header-container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <?php
-        wp_nav_menu( array(
-            'theme_location'  => 'primary',
-            'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
-            'container'       => 'div',
-            'container_class' => 'collapse navbar-collapse',
-            'container_id'    => 'bs-example-navbar-collapse-1',
-            'menu_class'      => 'navbar-nav mr-auto',
-            'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-            'walker'          => new WP_Bootstrap_Navwalker(),
-        ) );
-        ?>
-    </nav>
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="description" content="<?php bloginfo('description') ?>">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <?php bloginfo('name'); ?> |
+        <?php is_front_page() ? bloginfo('description') : wp_title(); ?>
+    </title>
+    <?php wp_head(); ?>
+</head>
+<body>
+

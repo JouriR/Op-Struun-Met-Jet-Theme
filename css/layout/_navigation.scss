@@ -1,6 +1,17 @@
-.navbar {
-  position: fixed;
-  top: 0;
-  height: 100px;
-  width: 100%;
+.nav-home {
+
+  @media screen and (max-width: 991px) {
+    background: rgba(0, 0, 0, 0.5)!important;
+  }
+  @media screen and (min-width: 992px) {
+    background-color: transparent!important;
+
+    a {
+      color: white!important;
+
+      &:hover {
+        color: #1d1d1d !important;
+      }
+    }
+  }
 }

@@ -1,7 +1,7 @@
 .nav-home {
 
   @media screen and (max-width: 991px) {
-    background: rgba(0, 0, 0, 0.5)!important;
+    background: rgba(0, 0, 0, 0.6)!important;
   }
   @media screen and (min-width: 992px) {
     background-color: transparent!important;
@@ -14,4 +14,8 @@
       }
     }
   }
+}
+
+.navbar {
+  z-index: 99!important;
 }

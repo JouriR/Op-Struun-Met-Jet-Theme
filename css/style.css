@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,600&display=swap");
 footer {
-  height: 250px;
+  height: fit-content;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,22 +18,29 @@ footer {
 
 .header-container {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   padding: 0;
-  background: rgba(64, 60, 13, 0.5);
+  background: rgba(172, 165, 245, 0.5);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 576px) {
+  .header-container .header-text-row {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+  }
+}
 .header-container .header-text-row {
   z-index: 3;
-  height: 100vh;
+  height: 70vh;
   color: white;
-  font-size: 80px;
 }
 .header-container .header-text-row h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Barlow", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -44,7 +52,7 @@ footer {
 
 @media screen and (max-width: 991px) {
   .nav-home {
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
   }
 }
 @media screen and (min-width: 992px) {
@@ -57,6 +65,10 @@ footer {
   .nav-home a:hover {
     color: #1d1d1d !important;
   }
+}
+
+.navbar {
+  z-index: 99 !important;
 }
 
 .homepage-button {
@@ -83,25 +95,34 @@ footer {
 }
 
 .review-body {
-  border-top: 1px solid #707070;
+  border-top: 2px solid #F2811E;
 }
 
-.homepage-image {
-  width: 472px;
-  height: 806px;
-  border-radius: 25px;
+@media screen and (max-width: 575px) {
+  .homepage-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
 }
-
+@media screen and (min-width: 576px) {
+  .homepage-image {
+    width: 472px;
+    height: 806px;
+    border-radius: 25px;
+  }
+}
 body {
   font-family: "Barlow", sans-serif;
   max-width: 100vw;
   overflow-x: hidden;
 }
 body h1 {
-  font-size: 55px;
+  font-size: 32px;
 }
 body p {
-  font-size: 28px;
+  font-size: 17px;
 }
 body button {
   font-size: 20px;
@@ -109,6 +130,10 @@ body button {
 
 .about-container {
   min-height: 100vh;
+}
+
+.section {
+  justify-content: center !important;
 }
 
 /*# sourceMappingURL=style.css.map */

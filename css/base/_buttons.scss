@@ -1,7 +1,9 @@
+@import "../abstracts/variables";
+
 .homepage-button {
-  height: 70px;
-  width: 270px;
-  background-color: #F2811E;
+  height: 45px;
+  width: 200px;
+  background-color: rgba(242, 129, 30, 0.5);
   color: white;
   border: 1px solid #707070;
   border-radius: 10px;

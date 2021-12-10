@@ -12,8 +12,7 @@
 }
 
 .review-body {
-  border-top: 2px solid $orange;
-  padding: 10px;
+
 }
 
 @media screen and (max-width: 575px) {
@@ -26,9 +25,28 @@
 }
 
 @media screen and (min-width: 576px) {
+  .section {
+    margin-bottom: 80px!important;
+    margin-top: 80px!important;
+  }
+
   .homepage-image {
     width: 250px;
     height: 350px;
+    border-radius: 25px;
+  }
+  .homepage-image-contact {
+    width: 400px;
+    height: 480px;
+    border-radius: 25px;
+  }
+  .homepage-image-long {
+    height: 350px;
+    border-radius: 25px;
+  }
+  .homepage-image-long-right {
+    width: 250px;
+    height: 450px;
     border-radius: 25px;
   }
 }
@@ -57,3 +75,13 @@ body {
 .section {
   justify-content: center!important;
 }
+
+.review-name {
+  border-bottom: 1px solid $orange;
+  padding-bottom: 3px;
+  width: fit-content;
+  margin: auto auto 10px;
+  //text-decoration: underline;
+  //text-decoration-color: $orange;
+}
+

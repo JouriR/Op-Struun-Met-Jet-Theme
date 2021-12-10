@@ -7,6 +7,11 @@
   color: white;
   border: 1px solid #707070;
   border-radius: 10px;
+
+  &:hover {
+    color: black;
+    background-color: rgba(242, 129, 30, 0.8);
+  }
 }
 
 .review-button {
@@ -18,3 +23,9 @@
   font-weight: bold;
   border: 1px solid #707070;
 }
+.carousel-caret {
+  color: $orange;
+  z-index: 98;
+
+}
+

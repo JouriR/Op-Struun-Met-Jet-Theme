@@ -79,6 +79,10 @@ footer {
   border: 1px solid #707070;
   border-radius: 10px;
 }
+.homepage-button:hover {
+  color: black;
+  background-color: rgba(242, 129, 30, 0.8);
+}
 
 .review-button {
   height: 63px;
@@ -90,13 +94,13 @@ footer {
   border: 1px solid #707070;
 }
 
-.text-body {
-  min-height: 80vh;
+.carousel-caret {
+  color: #F2811E;
+  z-index: 98;
 }
 
-.review-body {
-  border-top: 2px solid #F2811E;
-  padding: 10px;
+.text-body {
+  min-height: 80vh;
 }
 
 @media screen and (max-width: 575px) {
@@ -108,9 +112,31 @@ footer {
   }
 }
 @media screen and (min-width: 576px) {
+  .section {
+    margin-bottom: 80px !important;
+    margin-top: 80px !important;
+  }
+
   .homepage-image {
     width: 250px;
     height: 350px;
+    border-radius: 25px;
+  }
+
+  .homepage-image-contact {
+    width: 400px;
+    height: 480px;
+    border-radius: 25px;
+  }
+
+  .homepage-image-long {
+    height: 350px;
+    border-radius: 25px;
+  }
+
+  .homepage-image-long-right {
+    width: 250px;
+    height: 450px;
     border-radius: 25px;
   }
 }
@@ -136,6 +162,13 @@ body button {
 
 .section {
   justify-content: center !important;
+}
+
+.review-name {
+  border-bottom: 1px solid #F2811E;
+  padding-bottom: 3px;
+  width: fit-content;
+  margin: auto auto 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

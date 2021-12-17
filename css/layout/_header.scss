@@ -2,27 +2,26 @@
 
 .header-container {
   width: 100vw;
-  height: 70vh;
   padding: 0;
-  background: rgba(172, 165, 245, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 991px) {
     .header-text-row {
-      width: 100%;
+      width: 90%;
       margin: 0;
       position: absolute;
-      bottom: 30px;
+      bottom: 55vh;
     }
   }
 
   .header-text-row {
     z-index: 3;
-    height: 70vh;
+
     color: white;
 
     h1 {
@@ -37,7 +36,24 @@
       font-weight: normal;
     }
   }
+  @media screen and (min-width: 992px) {
+    .header-text-row {
+      height: 90vh;
+      width: fit-content;
+      margin-left: 50px;
+    }
+
+  }
 
 }
 
-
+@media screen and (max-width: 991px) {
+  .header-container {
+    height: 50vh
+  }
+}
+@media screen and (min-width: 992px) {
+  .header-container {
+    height: 100vh
+  }
+}

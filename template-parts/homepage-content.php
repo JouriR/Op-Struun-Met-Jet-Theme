@@ -11,7 +11,7 @@
                 <div class="row">
                     <h1>Op Struun</h1>
                 </div>
-                <div class="row">
+                <div class="row text-end">
                     <h1 class="colored-text-header">Met Jet</h1>
                 </div>
             </div>

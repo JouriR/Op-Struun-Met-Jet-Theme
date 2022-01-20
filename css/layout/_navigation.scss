@@ -1,21 +1,43 @@
-.nav-home {
+@import "../base/typography";
 
+.nav-home {
+  a {
+    font-family: $font;
+    font-stretch: condensed;
+  }
   @media screen and (max-width: 991px) {
     background: rgba(0, 0, 0, 0.6)!important;
+
+    a {
+      color: white !important;
+      font-size: 20px;
+    }
   }
   @media screen and (min-width: 992px) {
     background-color: transparent!important;
 
     a {
       color: white!important;
+      font-size: 20px;
 
       &:hover {
         color: #1d1d1d !important;
       }
+    }
+    .navbar-brand {
+      font-size: 30px;
     }
   }
 }
 
 .navbar {
   z-index: 99!important;
+
+  @media screen and (min-width: 1235px) {
+    ul {
+      min-width: 80%;
+      width: fit-content;
+    }
+  }
+
 }

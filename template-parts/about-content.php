@@ -6,8 +6,8 @@ get_template_part('template-parts/navbar');
 <div class="about-container container">
     <h1>About</h1>
 
-    <?php get_footer(); ?>
-</div>
 
+</div>
+<?php get_footer(); ?>
 
 

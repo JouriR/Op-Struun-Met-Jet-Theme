@@ -14,22 +14,22 @@
                         <div class="buffer d-none d-sm-block w-50"></div>
                         <ul class="navbar-nav d-flex justify-content-end ms-auto mb-2 mb-lg-0">
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1 active" aria-current="page" href="/">Home</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1 active" aria-current="page" href="../">Home</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="/about">Over Mij</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./about">Over Mij</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="/gallery">Fotogalerij</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./gallery">Fotogalerij</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="/aanbod">Aanbod</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./aanbod">Aanbod</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="/reviews">Reviews</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./reviews">Reviews</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="/contact">Contact</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./contact">Contact</a>
                             </li>
                         </ul>
                     </div>

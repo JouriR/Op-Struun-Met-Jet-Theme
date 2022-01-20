@@ -27,7 +27,7 @@
         <div class="col-12 col-lg-6 my-lg-auto">
             <div class="row text-center text-lg-start"><h1><b>Natuurwandelingen</b></h1></div>
             <div class="row text-center text-lg-start"><h1><b>In Groningen en Drenthe</b></h1></div>
-            <div class="row mb-2 p-2 p-lg-0">
+            <div class="row mb-2 p-3 p-lg-0">
                 <p>
                     Bij Op Struun met Jet ben je aan het goede adres als je een fijne dag wilt wandelen in de natuur van
                     Groningen of Drenthe, als wilt genieten van een mooie route én van een lekkere zelfgemaakte lunch in
@@ -60,7 +60,7 @@
         </div>
         <div class="col-12 col-lg-6 my-lg-auto">
                 <div class="row text-center text-lg-end"><h1><b>Over Mij</b></h1></div>
-                <div class="row text-start text-lg-end mb-3 p-2 p-lg-0">
+                <div class="row text-start text-lg-end mb-3 p-3 p-lg-0">
                     <p>
                         Mijn naam is Henriëtte van der Noord. Mijn grootste hobby is wandelen in de natuur, het liefst op zo
                         onverhard mogelijke paden. Daar haal ik mijn hart op, kom ik tot rust, ontspan ik en voel ik mij
@@ -71,7 +71,7 @@
                 <div class="row mt-2 mt-lg-0 mb-4 mb-lg-4 text-center text-lg-end">
                     <div class="col-7"></div>
                     <div class="col-lg-5 p-0">
-                        <button class="homepage-button border-0 p-1">Lees Meer</button>
+                        <a href="./about"><button class="homepage-button border-0 p-1">Lees Meer</button></a>
                     </div>
                     <div class="col"></div>
                 </div>
@@ -80,7 +80,7 @@
     <div class="row my-4 section">
         <div class="col-12 col-lg-6 my-lg-auto">
             <div class="row text-center"><h1><b>Aanbod</b></h1></div>
-            <div class="row text-start text-lg-start mb-2 p-2 p-lg-0">
+            <div class="row text-start text-lg-start mb-2 p-3 p-lg-0">
                 <p>
                     Mijn grootste hobby is wandelen in de natuur, het liefst op zo onverhard mogelijke paden. Daar haal
                     ik mijn hart op, kom ik tot rust, ontspan ik en voel ik mij gelukkig. Dat gun ik anderen ook zo en
@@ -152,13 +152,13 @@
     <div class="row my-4 my-lg-4 text-center section">
         <div class="col-12 col-lg-6 d-none d-lg-block align-items-end justify-content-end">
             <div class="row my-4 my-lg-0 text-center">
-                <img class="homepage-image-contact float-start"
+                <img class="homepage-image float-start"
                      src="<?php echo get_template_directory_uri(); ?>/images/jet-bloemetjes.jpg" alt="jet-bloemen">
             </div>
         </div>
         <div class="col-12 col-lg-6 my-lg-auto my-lg-0">
             <div class="row text-center text-lg-end"><h1><b>Contact</b></h1></div>
-            <div class="row text-center text-lg-end mb-3">
+            <div class="row text-center p-2 text-lg-end mb-3">
                 <p>
                     Wilt u graag een wandeltocht aanvragen? Of heeft u
                     andere vragen? U kunt mij een bericht sturen via deze

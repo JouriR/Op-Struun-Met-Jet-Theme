@@ -1,13 +1,16 @@
-<div class="container-fluid container-lg p-0 p-sm-0">
+<div class="container-fluid p-0 p-sm-0">
     <div class="row">
         <div class="col">
             <nav class="navbar <?php if(is_front_page()){
-                echo 'nav-home navbar-dark';
+                echo 'nav-home navbar-dark bg-dark';
+            } else {
+                echo 'nav-single navbar-light bg-light';
             }
-            ?> navbar-expand-lg navbar-light  bg-light">
+            ?> navbar-expand-lg ">
                 <div class="container-fluid p-0">
-                    <a class="navbar-brand p-3" href="<?php echo home_url(); ?>">Op Struun Met Jet</a>
-                    <button class="navbar-toggler m-2 mr-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="col-lg-1 d-none d-lg-block"></div>
+                    <a class="navbar-brand p-1" href="<?php echo home_url(); ?>">Op Struun Met Jet</a>
+                    <button class="navbar-toggler m-2 mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
@@ -33,6 +36,7 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="col-lg-1 d-none d-lg-block"></div>
                 </div>
             </nav>
         </div>

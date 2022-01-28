@@ -83,6 +83,10 @@ footer {
   .nav-home {
     background-color: transparent !important;
   }
+  .nav-home .navbar-toggler {
+    color: white !important;
+    border-color: white !important;
+  }
   .nav-home a {
     color: white !important;
     font-size: 20px;
@@ -91,6 +95,35 @@ footer {
     color: #1d1d1d !important;
   }
   .nav-home .navbar-brand {
+    font-size: 30px;
+  }
+}
+
+.nav-single a {
+  font-family: "Barlow", sans-serif;
+  font-stretch: condensed;
+}
+@media screen and (max-width: 991px) {
+  .nav-single {
+    background: rgba(255, 255, 255, 0.6) !important;
+  }
+  .nav-single a {
+    color: black !important;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .nav-single {
+    background-color: transparent !important;
+  }
+  .nav-single a {
+    color: black !important;
+    font-size: 20px;
+  }
+  .nav-single a:hover {
+    color: #1d1d1d !important;
+  }
+  .nav-single .navbar-brand {
     font-size: 30px;
   }
 }
@@ -105,6 +138,14 @@ footer {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative !important;
+  }
+}
 .homepage-button {
   height: 45px;
   width: 200px;
@@ -144,6 +185,12 @@ footer {
     border-radius: 25px;
     margin-top: 20px;
   }
+
+  .photo {
+    width: 80vw;
+    position: relative;
+    border: none;
+  }
 }
 @media screen and (min-width: 576px) {
   .section {
@@ -174,6 +221,13 @@ footer {
     height: 600px;
     border-radius: 25px;
   }
+
+  .photo {
+    width: 100%;
+    position: relative;
+    max-width: 90vw;
+    border: none;
+  }
 }
 body {
   font-family: "Barlow", sans-serif;
@@ -191,7 +245,7 @@ body button {
   font-size: 20px;
 }
 
-.about-container {
+.content-container {
   min-height: 100vh;
 }
 
@@ -204,6 +258,11 @@ body button {
   padding-bottom: 3px;
   width: fit-content;
   margin: auto auto 10px;
+}
+
+.photo-row {
+  width: 90%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

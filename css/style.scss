@@ -22,6 +22,11 @@
     border-radius: 25px;
     margin-top: 20px;
   }
+  .photo {
+    width: 80vw;
+    position: relative;
+    border: none;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -50,6 +55,13 @@
     height: 600px;
     border-radius: 25px;
   }
+  .photo {
+    width: 100%;
+    position: relative;
+    max-width: 90vw;
+    border: none;
+  }
+
 }
 
 body {
@@ -69,7 +81,7 @@ body {
   }
 }
 
-.about-container {
+.content-container {
   min-height: 100vh;
 }
 
@@ -86,3 +98,7 @@ body {
   //text-decoration-color: $orange;
 }
 
+.photo-row {
+  width: 90%;
+  margin: auto;
+}

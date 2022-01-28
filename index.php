@@ -6,7 +6,11 @@ if (is_front_page()) {
     get_template_part('template-parts/about-content');
 }elseif (is_page('Gallery')) {
     get_template_part('template-parts/gallery-content');
-} else {
+} elseif (is_page('Contact')) {
+    get_template_part('template-parts/contact-content');
+} elseif (is_page('Reviews')) {
+    get_template_part('template-parts/reviews-content');
+}else {
     get_template_part('template-parts/404-content');
 }
 

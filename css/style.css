@@ -66,6 +66,37 @@ footer {
     height: 100vh;
   }
 }
+.social-icons-contact {
+  height: 70px;
+  width: 70px;
+}
+
+.contact-social-bold-text {
+  font-size: 40px;
+  padding-left: 0;
+  font-family: "Barlow Condensed Medium", sans-serif;
+}
+
+.contact-title {
+  font-size: 60px;
+}
+
+.contact-social-subtext {
+  font-family: "Barlow", serif;
+  padding-left: 0;
+}
+
+.orange-border-bottom {
+  border-bottom: 5px solid rgba(242, 129, 30, 0.5);
+  box-shadow: inset 0 -3px 0 -1px #FFF986;
+  transition: box-shadow 0.5s ease-in-out;
+  color: black;
+  padding: 5px;
+}
+.orange-border-bottom:hover {
+  box-shadow: inset 0 -40px 0 -1px rgba(242, 129, 30, 0.5);
+}
+
 .nav-home a {
   font-family: "Barlow", sans-serif;
   font-stretch: condensed;
@@ -246,7 +277,7 @@ body button {
 }
 
 .content-container {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .section {

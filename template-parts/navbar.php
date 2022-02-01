@@ -18,7 +18,7 @@
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/about">Over Mij</a>
+                                <a class="nav-link" href="/over-mij">Over Mij</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/gallery">Fotogallerij</a>

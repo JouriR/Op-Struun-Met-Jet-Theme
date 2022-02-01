@@ -55,7 +55,7 @@
         <div class="col-12 col-lg-6 d-none d-lg-block align-items-end justify-content-end">
             <div class="row my-4 my-lg-0 text-center">
                 <img class="homepage-image float-start"
-                     src="<?php echo get_template_directory_uri(); ?>/images/jet-smaller.jpg" alt="jet">
+                     src="<?php echo get_template_directory_uri(); ?>/images/Jet-smaller.jpg" alt="jet">
             </div>
         </div>
         <div class="col-12 col-lg-6 my-lg-auto">

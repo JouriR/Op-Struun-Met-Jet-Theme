@@ -20,7 +20,7 @@
                                 <a class="nav-link p-2 p-sm-2 p-xl-1 active" aria-current="page" href="<?php echo home_url(); ?>">Home</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./about">Over Mij</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./over-mij">Over Mij</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
                                 <a class="nav-link p-2 p-sm-2 p-xl-1" href="./gallery">Fotogalerij</a>

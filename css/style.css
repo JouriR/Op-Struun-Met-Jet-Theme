@@ -11,6 +11,16 @@
   margin-right: 75px;
 }
 
+.imgAanbod {
+  width: 350px;
+  height: 478px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 55px;
+  float: left;
+  margin-left: 75px;
+}
+
 footer {
   height: -webkit-fit-content;
   height: -moz-fit-content;

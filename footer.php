@@ -1,4 +1,4 @@
-<div class="row text-center mt-4">
+<div class="row text-center mt-4 footer">
     <div class="col-lg-3"></div>
     <div class="col-lg-6">
         <script src="https://kit.fontawesome.com/fa658c22f4.js" crossorigin="anonymous"></script>

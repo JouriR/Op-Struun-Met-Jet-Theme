@@ -23,7 +23,7 @@
                                 <a class="nav-link p-2 p-sm-2 p-xl-1" href="./over-mij">Over Mij</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./gallery">Fotogalerij</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./fotogalerij">Fotogalerij</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
                                 <a class="nav-link p-2 p-sm-2 p-xl-1" href="./aanbod">Aanbod</a>

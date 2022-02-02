@@ -81,6 +81,7 @@ get_template_part('template-parts/navbar');
                                 </p>
                             </div>
                         </details>
+                        <hr class="detailBottomBorder">
                     </div>
                     <div class="col-5">
                         <img class="imgAanbod" src="<?= get_the_post_thumbnail_url() ?>" alt="Henriette">

@@ -8,34 +8,44 @@
 }
 
 summary {
-    padding: 1em 0;
-    cursor: pointer;
-    outline: none;
-    font-weight: bold;
-    font-size: 20px;
-    border-top: 2px solid black;
+  padding: 1em 0;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-size: 20px;
+  border-top: 2px solid black;
 }
 
 details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
+  animation: sweep 0.5s ease-in-out;
 }
 
-.detailContent{
+.detailContent {
   padding-left: 23px;
 }
 
-.detailBottomBorder{
-    padding: 0;
-    margin: 0;
-    border: 1px solid black;
-    opacity: 1;
+.detailBottomBorder {
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  opacity: 1;
+
+  @media screen and (max-width: 575px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
 }
 
-@keyframes sweep{
-  from{
-    opacity: 0; margin-top: -10px;
+@keyframes sweep {
+  from {
+    opacity: 0;
+    margin-top: -10px;
   }
-  to{
-    opacity: 1; margin-top: 0;
+  to {
+    opacity: 1;
+    margin-top: 0;
   }
 }

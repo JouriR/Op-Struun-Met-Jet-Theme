@@ -4,7 +4,8 @@
 require_once('wp_bootstrap_navwalker.php');
 
 // Theme Support
-function wpb_theme_setup(){
+function wpb_theme_setup()
+{
     // Nav Menus
     register_nav_menus(array(
         'primary' => __('Primary Menu')

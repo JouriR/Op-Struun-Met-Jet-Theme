@@ -41,7 +41,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 text-center mb-4">
-                    <button class="homepage-button border-0 p-1 mb-4">Bekijk het aanbod</button>
+                    <a href="/aanbod"><button class="homepage-button border-0 p-1 mb-4">Bekijk het aanbod</button></a>
                 </div>
                 <div class="col"></div>
             </div>
@@ -74,7 +74,7 @@
             <div class="row mt-2 mt-lg-0 mb-4 mb-lg-4 text-center text-lg-end">
                 <div class="col-7"></div>
                 <div class="col-lg-5 p-0">
-                    <a href="./about"><button class="homepage-button border-0 p-1">Lees Meer</button></a>
+                    <a href="/over-mij"><button class="homepage-button border-0 p-1">Lees Meer</button></a>
                 </div>
                 <div class="col"></div>
             </div>
@@ -95,7 +95,7 @@
             </div>
             <div class="row my-3">
                 <div class="col-lg-4 text-center mb-4">
-                    <button class="homepage-button border-0 p-1 mb-4">Bekijk het aanbod</button>
+                    <a href="/aanbod"><button class="homepage-button border-0 p-1 mb-4">Bekijk het aanbod</button></a>
                 </div>
                 <div class="col"></div>
             </div>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="row mt-2 text-start d-none d-lg-block">
                     <div class="col">
-                        <button class="homepage-button border-0 p-1 mb-4">Bekijk Alle Foto's</button>
+                        <a href="/fotogalerij"><button class="homepage-button border-0 p-1 mb-4">Bekijk Alle Foto's</button></a>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
         </div>
         <div class="row d-block d-lg-none my-4 mt-lg-0">
             <div class="col-lg-4 text-center mb-4">
-                <button class="homepage-button border-0 p-1 mb-4">Bekijk Alle Foto's</button>
+                <a href="/fotogalerij"><button class="homepage-button border-0 p-1 mb-4">Bekijk Alle Foto's</button></a>
             </div>
             <div class="col"></div>
         </div>
@@ -170,7 +170,7 @@
             <div class="row mt-2 mt-lg-0 mb-4 mb-lg-4 text-center text-lg-end">
                 <div class="col-7"></div>
                 <div class="col-lg-5 p-0">
-                    <button class="homepage-button border-0 p-1">Lees Meer</button>
+                    <a href="/contact"><button class="homepage-button border-0 p-1">Lees Meer</button></a>
                 </div>
                 <div class="col"></div>
             </div>
@@ -210,9 +210,9 @@
                     <div class="col-10 col-lg-6 mb-0 mb-lg-3 p-2 text-center m-auto justify-content-center">
                         <h3 class="review-name"><b>Jitske Koops</b></h3>
                         <p class="review-body">
-                            Ik ben met veel plezier op pad geweest met Henriëtte. Ze is prima voorbereid (heerlijke lunch), 
-                            kent de weg goed en zorgt ondertussen voor een vrolijke wandeldag met haar aanstekelijke lach. 
-                            Ze neemt je mee op afwisselende routes in Groningen en Drenthe. Het is een mooie gelegenheid om andere 
+                            Ik ben met veel plezier op pad geweest met Henriëtte. Ze is prima voorbereid (heerlijke lunch),
+                            kent de weg goed en zorgt ondertussen voor een vrolijke wandeldag met haar aanstekelijke lach.
+                            Ze neemt je mee op afwisselende routes in Groningen en Drenthe. Het is een mooie gelegenheid om andere
                             enthousiaste wandelaars te ontmoeten. Ik kan een dag op struun met Jet van harte aanbevelen.
                         </p>
                     </div>
@@ -230,7 +230,7 @@
     <div class="row mt-0 mt-lg-0 mb-4 mb-lg-4">
         <div class="col col-lg-4"></div>
         <div class="col col-lg-4 text-center mb-4">
-            <button class="homepage-button border-0 p-1 mb-4 mt-2">Lees Alle Reviews</button>
+            <a href="/reviews"><button class="homepage-button border-0 p-1 mb-4 mt-2">Lees Alle Reviews</button></a>
         </div>
         <div class="col col-lg-4"></div>
     </div>

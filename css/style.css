@@ -309,6 +309,8 @@ footer {
 }
 
 .homepage-button:hover {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
   color: black;
   background-color: rgba(242, 129, 30, 0.8);
 }

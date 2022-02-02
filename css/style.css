@@ -39,11 +39,6 @@ footer {
           filter: invert(88%) sepia(1%) saturate(2046%) hue-rotate(319deg) brightness(89%) contrast(73%);
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-}
-
 .header-container {
   width: 100vw;
   padding: 0;
@@ -329,6 +324,10 @@ body button {
 
 .content-container {
   min-height: 80vh;
+}
+
+.container {
+  min-height: 671px;
 }
 
 .section {

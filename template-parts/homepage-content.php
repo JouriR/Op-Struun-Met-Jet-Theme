@@ -54,7 +54,7 @@
     <div class="row my-4 my-lg-4 text-center section">
         <div class="col-12 col-lg-6 d-none d-lg-block align-items-end justify-content-end">
             <div class="row my-4 my-lg-0 text-center">
-                <img class="homepage-image float-start"
+                <img class="homepage-image float-start image-fit"
                      src="<?php echo get_template_directory_uri(); ?>/images/Jet-smaller.jpg" alt="jet">
             </div>
         </div>
@@ -97,7 +97,7 @@
         </div>
         <div class="col-8 col-lg-6 d-none d-lg-block p-4 p-lg-0 align-items-end justify-content-center justify-content-lg-end">
             <div class="row text-center justify-content-end align-items-center">
-                <img class="homepage-image float-start float-lg-end"
+                <img class="homepage-image float-start float-lg-end image-fit"
                      src="<?php echo get_template_directory_uri(); ?>/images/paraplu.jpg" alt="paraplu">
             </div>
         </div>
@@ -107,13 +107,13 @@
         <div class="row text-center px-2 px-lg-0 justify-content-center">
             <div class="col-12 col-lg-8 my-2">
                 <div class="row d-block d-lg-none">
-                    <img class="homepage-image float-end float-lg-none" src="<?php echo get_template_directory_uri(); ?>/images/bloemen.jpg"
+                    <img class="homepage-image float-end float-lg-none image-fit" src="<?php echo get_template_directory_uri(); ?>/images/bloemen.jpg"
                          alt="bloemen">
                 </div>
                 <div class="row d-none d-lg-block">
-                    <img class="homepage-image d-block d-lg-none float-end float-lg-none" src="<?php echo get_template_directory_uri(); ?>/images/jet-bench.jpg"
+                    <img class="homepage-image d-block d-lg-none float-end float-lg-none image-fit" src="<?php echo get_template_directory_uri(); ?>/images/jet-bench.jpg"
                          alt="bloemen">
-                    <img class="homepage-image-long d-none d-lg-block float-end float-lg-none" src="<?php echo get_template_directory_uri(); ?>/images/jet-bench.jpg"
+                    <img class="homepage-image-long d-none d-lg-block float-end float-lg-none image-fit" src="<?php echo get_template_directory_uri(); ?>/images/jet-bench.jpg"
                          alt="bloemen">
                 </div>
                 <div class="row my-3 text-start d-none d-lg-block">
@@ -130,13 +130,13 @@
             <div class="col-12 col-lg-4 my-2 mb-4">
                 <div class="row">
                     <div class="col-6 col-lg-12 p-lg-0">
-                        <img class="homepage-image d-block d-lg-none float-start"
+                        <img class="homepage-image d-block d-lg-none float-start image-fit"
                              src="<?php echo get_template_directory_uri(); ?>/images/regen.jpg" alt="regen">
-                        <img class="homepage-image-long-right d-none d-lg-block float-end"
+                        <img class="homepage-image-long-right d-none d-lg-block float-end image-fit"
                              src="<?php echo get_template_directory_uri(); ?>/images/regen.jpg" alt="regen">
                     </div>
                     <div class="col-6 col-lg-12 d-block d-lg-none">
-                        <img class="homepage-image float-start"
+                        <img class="homepage-image float-start image-fit"
                              src="<?php echo get_template_directory_uri(); ?>/images/paraplu.jpg" alt="paraplu">
                     </div>
                 </div>
@@ -152,7 +152,7 @@
     <div class="row my-4 my-lg-4 text-center section">
         <div class="col-12 col-lg-6 d-none d-lg-block align-items-end justify-content-end">
             <div class="row my-4 my-lg-0 text-center">
-                <img class="homepage-image float-start"
+                <img class="homepage-image float-start image-fit"
                      src="<?php echo get_template_directory_uri(); ?>/images/jet-bloemetjes.jpg" alt="jet-bloemen">
             </div>
         </div>

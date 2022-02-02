@@ -31,6 +31,10 @@ body {
   }
 }
 
+.image-fit{
+  object-fit: cover;
+}
+
 .content-container {
   min-height: 80vh;
 }

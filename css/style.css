@@ -352,6 +352,11 @@ body button {
   font-size: 20px;
 }
 
+.image-fit {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .content-container {
   min-height: 80vh;
 }

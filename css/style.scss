@@ -11,10 +11,6 @@
   min-height: 80vh;
 }
 
-.review-body {
-
-}
-
 @media screen and (max-width: 575px) {
   .homepage-image {
     width: 100%;
@@ -91,11 +87,44 @@ body {
 
 .review-name {
   border-bottom: 1px solid $orange;
-  padding-bottom: 3px;
-  width: fit-content;
-  margin: auto auto 10px;
-  //text-decoration: underline;
-  //text-decoration-color: $orange;
+  margin-bottom: 11px;
+}
+
+.review {
+  // width: calc(33.333% - 23.333px);
+  margin-bottom: 43px;
+  h1 {
+    font-size: 31px;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 21px;
+  }
+  p {
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 14px;
+  }
+  @media screen and (max-width: 575px) {
+    margin-bottom: 30px;
+  }
+}
+.review-container {
+  // display: flex;
+  // justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.reviewpage-title {
+  font-family: $font-condensed;
+  margin-top: 42px;
+  margin-bottom: 65px;
+  h1 {
+    font-size: 80px;
+  }
 }
 
 .photo-row {

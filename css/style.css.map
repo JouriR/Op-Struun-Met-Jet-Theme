@@ -8,8 +8,6 @@
         "layout/_footer.scss",
         "layout/_header.scss",
         "base/_typography.scss",
-        "layout/_contact.scss",
-        "abstracts/_variables.scss",
         "layout/_navigation.scss",
         "base/_typography.scss",
         "base/_buttons.scss",

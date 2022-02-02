@@ -3,8 +3,7 @@
     <div class="col-lg-6">
         <script src="https://kit.fontawesome.com/fa658c22f4.js" crossorigin="anonymous"></script>
         <?php
-        if (is_page('Gallery')) { ?>
-
+        if (is_page('FOTOGALERIJ')) {?>
             <script src="<?php bloginfo('template_url'); ?>/js/masonry.js"></script>
         <?php } ?>
 

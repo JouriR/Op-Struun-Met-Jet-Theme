@@ -13,7 +13,6 @@ get_template_part('template-parts/navbar');
         'post_status' => 'publish',
     );
     $posts = new WP_Query($args);
-    // var_dump($posts);
     ?>
     <div class="review-container row">
 

@@ -34,8 +34,8 @@ summary {
 }
 
 details[open] summary ~ * {
-  -webkit-animation: sweep .5s ease-in-out;
-          animation: sweep .5s ease-in-out;
+  -webkit-animation: sweep 0.5s ease-in-out;
+          animation: sweep 0.5s ease-in-out;
 }
 
 .detailContent {
@@ -47,6 +47,18 @@ details[open] summary ~ * {
   margin: 0;
   border: 1px solid black;
   opacity: 1;
+}
+
+@media screen and (max-width: 575px) {
+  .detailBottomBorder {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .detailBottomBorder {
+    margin-bottom: 30px;
+  }
 }
 
 @-webkit-keyframes sweep {

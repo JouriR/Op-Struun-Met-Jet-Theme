@@ -8,7 +8,7 @@ if (is_front_page()) {
     get_template_part('template-parts/gallery-content');
 } elseif (is_page('Contact')) {
     get_template_part('template-parts/contact-content');
-} elseif (is_page('Reviews')) {
+} elseif (is_page('REVIEWS')) {
     get_template_part('template-parts/reviews-content');
 } elseif (is_page('AANBOD')) {
     get_template_part('template-parts/aanbod-content');

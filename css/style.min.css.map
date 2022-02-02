@@ -4,6 +4,7 @@
     "sources": [
         "style.scss",
         "pages/_about.scss",
+        "pages/_aanbod.scss",
         "layout/_footer.scss",
         "layout/_header.scss",
         "base/_typography.scss",

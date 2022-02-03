@@ -9,7 +9,7 @@
             ?> navbar-expand-lg ">
                 <div class="container-fluid p-0">
                     <div class="col-lg-1 d-none d-lg-block"></div>
-                    <a class="navbar-brand p-1" href="<?php echo home_url(); ?>">Op Struun Met Jet</a>
+                    <a class="navbar-brand p-1" href="<?php echo home_url(); ?>"><img style="width: 250px;" src="<?php echo get_template_directory_uri(); ?>/images/logoNew.svg" alt=""></a>
                     <button class="navbar-toggler m-2 mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -23,10 +23,10 @@
                                 <a class="nav-link p-2 p-sm-2 p-xl-1" href="./over-mij">Over Mij</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./gallery">Fotogalerij</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./aanbod">Aanbod</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
-                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./aanbod">Aanbod</a>
+                                <a class="nav-link p-2 p-sm-2 p-xl-1" href="./fotogalerij">Fotogalerij</a>
                             </li>
                             <li class="nav-item p-2 p-sm-2 p-xl-1">
                                 <a class="nav-link p-2 p-sm-2 p-xl-1" href="./reviews">Reviews</a>

@@ -25,7 +25,7 @@ get_template_part('template-parts/navbar');
             <div class="row" data-masonry='{"percentPosition": true }'></div>
             <picture>
                 <img class="photo grid-item p-1"
-                     src="<?php echo wp_get_attachment_url($image->ID) ?>" alt="paraplu">
+                     src="<?php echo wp_get_attachment_url($image->ID) ?>">
             </picture>
         </div>
 

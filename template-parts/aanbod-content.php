@@ -7,14 +7,14 @@ $image_thumbnail = get_the_post_thumbnail_url(); // Thumbnail niet meer beschikb
 <div class="container">
     <article class="mt-5">
         <div class="row">
-            <div class="col-7">
-                <h1><?php the_title() ?></h1>
-            </div>
-            <div class="col-5"></div>
+          <div class="col-sm-12 col-md-6">
+            <h1 class="title"><?php the_title() ?></h1>
+          </div>
+          <div class="col-sm-12 col-md-6"></div>
         </div>
 
         <div class="row">
-            <div class="col-7">
+            <div class="col-sm-12 col-md-6">
                 <?php $args = array(
                     'post_type' => 'aanbod_post_type',
                     'post_status' => 'publish',
@@ -23,7 +23,7 @@ $image_thumbnail = get_the_post_thumbnail_url(); // Thumbnail niet meer beschikb
                 $posts = new WP_Query($args);
                 if ($posts->have_posts()) :
                     while ($posts->have_posts()) : $posts->the_post(); ?>
-
+              
                         <details>
                             <summary><?= the_title() ?></summary>
                             <div class="detailContent">
@@ -42,7 +42,7 @@ $image_thumbnail = get_the_post_thumbnail_url(); // Thumbnail niet meer beschikb
                 <?php endif; ?>
                 <hr class="detailBottomBorder">
             </div>
-            <div class="col-5">
+            <div class="col-sm-12 col-md-6">
                 <img class="imgAanbod" src="<?= $image_thumbnail ?>" alt="Henriette">
             </div>
         </div>

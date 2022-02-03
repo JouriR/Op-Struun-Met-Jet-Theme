@@ -5,7 +5,8 @@ get_template_part('template-parts/navbar');
 ?>
 <div class="container">
     <?php if (have_posts()) : ?>
-        <?php while (have_posts()) : the_post() ?>
+        <?php while (have_posts()) : the_post();
+            $url = get_the_post_thumbnail_url();?>
 
             <article class="mt-5">
                 <div class="row">
@@ -45,7 +46,7 @@ get_template_part('template-parts/navbar');
                         <hr class="detailBottomBorder">
                     </div>
                     <div class="col-5">
-                        <img class="imgAanbod" src="<?= get_the_post_thumbnail_url() ?>" alt="Henriette">
+                        <img class="imgAanbod" src="<?= $url ?>" alt="Henriette">
                     </div>
                 </div>
             </article>

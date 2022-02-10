@@ -3,7 +3,7 @@
 if ( isset( $_POST['submit'] ) ) {
     $bericht = $_POST['bericht'];
 
-    $to = get_option('admin_email');
+    $to = "info@opstruunmetjet.nl";
     $subject = $_POST['onderwerp'];
     $txt = $_POST['bericht'];
     $headers = "From: <$bericht>". "\r\n";
@@ -34,7 +34,7 @@ get_template_part('template-parts/navbar');
                         <span class="contact-social-subtext">
                              <span class="orange-border-bottom">
                                  <a class="contact-page-link" href="mailto:test@test.com">
-                                  hvdnoord@ziggo.nl
+                                    info@opstruunmetjet.nl
                                  </a>
                              </span>
                         </span>

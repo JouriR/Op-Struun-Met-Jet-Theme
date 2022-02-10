@@ -33,7 +33,7 @@
             <div class="row mb-2 p-3 p-lg-0">
                 <p>
                     Bij Op Struun met Jet ben je aan het goede adres als je een fijne dag wilt wandelen in de natuur van
-                    Groningen of Drenthe, als wilt genieten van een mooie route én van een lekkere zelfgemaakte lunch in
+                    Groningen of Drenthe, als je wilt genieten van een mooie route én van een lekkere zelfgemaakte lunch in
                     het veld. Op Struun met Jet biedt wandeldagen aan voor verschillende doelgroepen en van
                     verschillende afstanden. We gaan een fijne dag met elkaar op pad, starten met koffie en iets lekkers
                     aan het begin, Op Struun met Jet verzorgt de lunch onderweg en weet de route.

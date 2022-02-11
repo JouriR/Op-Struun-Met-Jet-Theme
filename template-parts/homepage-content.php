@@ -108,7 +108,7 @@
     </div>
     <div class="row my-4 section text-center">
         <div class="row text-center d-block d-lg-none my-4">
-            <h1><b>Fotogallerij</b></h1>
+            <h1><b>Fotogalerij</b></h1>
         </div>
         <div class="row text-center px-2 px-lg-0 justify-content-center">
             <div class="col-12 col-lg-8 my-2">
@@ -121,7 +121,7 @@
                 </div>
                 <div class="row my-3 text-start d-none d-lg-block">
                     <div class="col">
-                        <h1><b>Fotogallerij</b></h1>
+                        <h1><b>Fotogalerij</b></h1>
                     </div>
                 </div>
                 <div class="row mt-2 text-start d-none d-lg-block">

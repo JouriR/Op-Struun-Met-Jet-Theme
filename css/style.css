@@ -215,6 +215,10 @@ footer {
   background: rgba(0, 0, 0, 0.6) !important;
 }
 
+.navbarLogo {
+  width: 250px;
+}
+
 .nav-home a {
   font-family: "Barlow", sans-serif;
   font-stretch: condensed;
@@ -297,6 +301,12 @@ footer {
     margin: auto;
     text-align: center;
     position: relative !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbarLogo {
+    width: 200px;
   }
 }
 

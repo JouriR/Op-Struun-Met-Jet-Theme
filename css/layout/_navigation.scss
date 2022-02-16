@@ -1,26 +1,28 @@
 @import "../base/typography";
 
+.navToggled {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
 .nav-home {
   a {
     font-family: $font;
     font-stretch: condensed;
   }
   @media screen and (max-width: 991px) {
-    background: rgba(0, 0, 0, 0.6)!important;
-
     a {
       color: white !important;
       font-size: 20px;
     }
   }
   @media screen and (min-width: 992px) {
-    background-color: transparent!important;
+    background-color: transparent !important;
     .navbar-toggler {
-      color: white!important;
-      border-color: white!important;
+      color: white !important;
+      border-color: white !important;
     }
     a {
-      color: white!important;
+      color: white !important;
       font-size: 20px;
 
       &:hover {
@@ -47,10 +49,10 @@
     }
   }
   @media screen and (min-width: 992px) {
-    background-color: transparent!important;
+    background-color: transparent !important;
 
     a {
-      color: black!important;
+      color: black !important;
       font-size: 20px;
 
       &:hover {
@@ -64,7 +66,7 @@
 }
 
 .navbar {
-  z-index: 99!important;
+  z-index: 99 !important;
 
   @media screen and (min-width: 1235px) {
     ul {
@@ -72,7 +74,6 @@
       width: fit-content;
     }
   }
-
 }
 
 @media screen and (max-width: 991px) {
@@ -80,8 +81,6 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    position: relative!important;
+    position: relative !important;
   }
-}
-@media screen and (min-width: 992px) {
 }

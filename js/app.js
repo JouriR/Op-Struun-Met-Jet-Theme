@@ -1,7 +1,12 @@
-let greetingLink = document.getElementsByClassName('greeting-nav-link')[0];
+const navbar = document.getElementById("navbar");
+const navToggle = document.getElementById("nav-toggle");
 
-greetingLink.addEventListener('click', (event) => {
-    event.preventDefault();
+navToggle.addEventListener("click", (ev) => {
+  ev.preventDefault();
 
-    document.getElementById('')
-})
+  if (!navbar.classList.contains("navToggled")) {
+    navbar.classList.add("navToggled");
+  } else {
+    navbar.classList.remove("navToggled");
+  }
+});

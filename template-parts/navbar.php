@@ -1,16 +1,16 @@
 <div class="container-fluid p-0 p-sm-0">
     <div class="row">
         <div class="col">
-            <nav class="navbar <?php if(is_front_page()){
-                echo 'nav-home navbar-dark bg-dark';
+            <nav id="navbar" class="navbar <?php if(is_front_page()){
+                echo 'nav-home navbar-dark';
             } else {
                 echo 'nav-single navbar-light bg-light';
             }
             ?> navbar-expand-lg ">
                 <div class="container-fluid p-0">
                     <div class="col-lg-1 d-none d-lg-block"></div>
-                    <a class="navbar-brand p-1" href="<?php echo home_url(); ?>"><img style="width: 250px;" src="<?php echo get_template_directory_uri(); ?>/images/logoNew.svg" alt=""></a>
-                    <button class="navbar-toggler m-2 mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand p-1" href="<?php echo home_url(); ?>"><img class="navbarLogo" src="<?php echo get_template_directory_uri(); ?>/images/logoFinal.png" alt=""></a>
+                    <button id="nav-toggle" class="navbar-toggler m-2 mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">

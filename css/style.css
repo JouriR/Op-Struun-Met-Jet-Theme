@@ -211,15 +211,20 @@ footer {
   color: black;
 }
 
+.navToggled {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbarLogo {
+  width: 250px;
+}
+
 .nav-home a {
   font-family: "Barlow", sans-serif;
   font-stretch: condensed;
 }
 
 @media screen and (max-width: 991px) {
-  .nav-home {
-    background: rgba(0, 0, 0, 0.6) !important;
-  }
   .nav-home a {
     color: white !important;
     font-size: 20px;
@@ -299,6 +304,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 575px) {
+  .navbarLogo {
+    width: 200px;
+  }
+}
+
 .homepage-button {
   height: 45px;
   width: 200px;
@@ -361,6 +372,10 @@ body button {
 
 .content-container {
   min-height: 80vh;
+}
+
+.container {
+  min-height: 671px;
 }
 
 .section {

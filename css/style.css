@@ -114,7 +114,7 @@ footer {
 .header-container {
   width: 100vw;
   padding: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: url(../images/homepageHeader.jpg);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
@@ -454,6 +454,9 @@ body button {
   }
   .content {
     margin-top: 20px;
+  }
+  .welcomeText {
+    margin: auto auto;
   }
 }
 

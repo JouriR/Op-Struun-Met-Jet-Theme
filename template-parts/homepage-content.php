@@ -1,23 +1,13 @@
 <?php get_header(); ?>
 
-<div style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/homepageHeader.jpg');" class="header-container container-fluid mb-4">
-    <?php
-    get_template_part('template-parts/navbar');
-    ?>
-    <div class="container-fluid container-sm">
-        <div class="row header-text-row align-items-center">
-            <div class="col">
-                <div class="row">
-                    <h1>Op Struun</h1>
-                </div>
-                <div class="row text-end">
-                    <h1 class="colored-text-header">Met Jet</h1>
-                </div>
-            </div>
+<?php get_template_part('template-parts/navbar'); ?>
+<div class="header-container container-fluid mb-4">
+    <div class="row">
+        <div class="col-md-8">
+            <!-- <h1>Op Struun</h1> -->
+            <!-- <h1>Met Jet</h1> -->
         </div>
     </div>
-
-
 </div>
 
 <div class="container p-2 mt-lg-4 p-lg-0 main-container">
